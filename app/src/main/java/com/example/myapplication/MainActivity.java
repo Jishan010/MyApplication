@@ -20,15 +20,14 @@ public class MainActivity extends AppCompatActivity {
         isIsogram("abcserdh");
 
 
-        /*function call for sorting the odd item only*/
-      /*  int[] intArray = new int[]{ 5,3,2,8,1,4};
+       // function call for sorting the odd item only
+        int[] intArray = new int[]{ 5,3,2,8,1,4};
         int[] sortedArray=sortArrayAsc(intArray);
         for (int sortedValue : sortedArray) {
             Log.d("AscSort", String.valueOf(sortedValue));
-        }*/
+        }
 
 
-/*
 
         List<String> smileys=new ArrayList<>();
        smileys.add(":)"); smileys.add(":D"); smileys.add(":-}"); smileys.add(":-()");
@@ -39,12 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
         int totalSmileysCount=countSmileys(smileys);
         Log.d("SmileyCount", String.valueOf(totalSmileysCount));
-*/
 
-      /*  int[] intArray = new int[]{9,9,7,0,6,5,5,7,5,7};
+        int[] intArray1 = new int[]{9,9,7,0,6,5,5,7,5,7};
 
-        Log.d("Mobile", String.valueOf(createPhoneNumber(intArray)));
-*/
+        Log.d("Mobile", String.valueOf(createPhoneNumber(intArray1)));
 
     }
 
