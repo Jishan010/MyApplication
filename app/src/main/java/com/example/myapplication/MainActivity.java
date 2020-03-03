@@ -28,18 +28,18 @@ public class MainActivity extends AppCompatActivity {
 
 
         List<String> smileys=new ArrayList<>();
-       smileys.add(":)"); smileys.add(":D"); smileys.add(":-}"); smileys.add(":-()");
+//       smileys.add(":)"); smileys.add(":D"); smileys.add(":-}"); smileys.add(":-()");
 //        smileys.add(":)"); smileys.add(":)"); smileys.add("x-]"); smileys.add(":ox"); smileys.add(";-("); smileys.add(";-)"); smileys.add(";~("); smileys.add(":~D");
 
-//        smileys.add(":)"); smileys.add("XD"); smileys.add(":0}"); smileys.add("x:-"); smileys.add("):-"); smileys.add("D:");
+        smileys.add(":)"); smileys.add("XD"); smileys.add(":0}"); smileys.add("x:-"); smileys.add("):-"); smileys.add("D:");
 
 
         int totalSmileysCount=countSmileys(smileys);
         Log.d("SmileyCount", String.valueOf(totalSmileysCount));
 
-        int[] intArray1 = new int[]{9,9,7,0,6,5,5,7,5,7};
+       /* int[] intArray1 = new int[]{9,9,7,0,6,5,5,7,5,7};
 
-        Log.d("Mobile", String.valueOf(createPhoneNumber(intArray1)));
+        Log.d("Mobile", String.valueOf(createPhoneNumber(intArray1)));*/
 
     }
 
